@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SimpleCubeComponent } from './simple.cube/simple.cube.component';
+import { LookAtComponent } from './look-at/look-at.component';
+import { OrbitControlComponent } from './orbit-control/orbit-control.component';
 
 @Component({
+  //standalone:true,
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [OrbitControlComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'three';
-}
+export class AppComponent {}
