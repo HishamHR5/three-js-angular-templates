@@ -1,5 +1,5 @@
 # three-js-angular-templates
-This is a directory for beginner angular templates for three js animation project
+This is a directory for beginner angular templates for three js animation projects.It has the templates for basic animations
 =======
 # Three
 
@@ -60,4 +60,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
->>>>>>> 18ebb7c (initial commit)
+
+## Extra points 
+your can use dat.GUI for debuging and easy changeing the values lke color and mesh position 
