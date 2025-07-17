@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { SimpleCubeComponent } from './simple.cube/simple.cube.component';
 import { LookAtComponent } from './look-at/look-at.component';
 import { OrbitControlComponent } from './orbit-control/orbit-control.component';
@@ -9,7 +10,7 @@ import { RaycasterComponent } from './raycaster/raycaster.component';
 @Component({
   //standalone:true,
   selector: 'app-root',
-  imports: [RaycasterComponent],
+  imports: [RouterModule, ParticlesComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
